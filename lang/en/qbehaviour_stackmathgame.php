@@ -1,9 +1,7 @@
 <?php
-/**
- * Language strings for qbehaviour_stackmathgame.
- *
- * @package    qbehaviour_stackmathgame
- */
-$string['pluginname']         = 'STACK Math Game';
-$string['pluginname_desc']    = 'Adaptive multipart behaviour for STACK questions used with the stackmathgame plugin. Suppresses native UI elements so the game layer controls the full interaction.';
-$string['requiresadaptivemultipart'] = 'qbehaviour_stackmathgame requires qbehaviour_adaptivemultipart to be installed.';
+$string['pluginname'] = 'STACK Math Game';
+$string['privacy:metadata'] = 'The STACK Math Game question behaviour stores no extra personal data.';
+$string['pluginname_help'] = 'A rendering-focused behaviour for STACK questions that hides native controls and exposes data attributes for the local game frontend.';
+
+$string['pluginnameadding'] = 'STACK Math Game';
+$string['pluginname_link'] = 'question/behaviour/stackmathgame';
