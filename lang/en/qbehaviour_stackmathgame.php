@@ -1,7 +1,9 @@
 <?php
-$string['pluginname'] = 'STACK Math Game';
-$string['privacy:metadata'] = 'The STACK Math Game question behaviour stores no extra personal data.';
-$string['pluginname_help'] = 'A rendering-focused behaviour for STACK questions that hides native controls and exposes data attributes for the local game frontend.';
+// This file is part of Moodle - http://moodle.org/
 
-$string['pluginnameadding'] = 'STACK Math Game';
+defined('MOODLE_INTERNAL') || die();
+
+$string['pluginname'] = 'STACK Math Game behaviour';
+$string['pluginnameadding'] = 'STACK Math Game behaviour';
 $string['pluginname_link'] = 'question/behaviour/stackmathgame';
+$string['privacy:metadata'] = 'The STACK Math Game behaviour plugin does not store personal data by itself.';

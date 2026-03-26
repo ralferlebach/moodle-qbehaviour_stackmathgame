@@ -1,7 +1,9 @@
 <?php
-$string['pluginname'] = 'STACK-Mathe-Spiel';
-$string['privacy:metadata'] = 'Das STACK-Mathe-Spiel-Verhalten speichert keine zusätzlichen personenbezogenen Daten.';
-$string['pluginname_help'] = 'Ein renderingspezifisches Verhalten für STACK-Fragen, das native Steuerelemente ausblendet und Datenattribute für das lokale Spiel-Frontend bereitstellt.';
+// This file is part of Moodle - http://moodle.org/
 
-$string['pluginnameadding'] = 'STACK-Mathe-Spiel';
+defined('MOODLE_INTERNAL') || die();
+
+$string['pluginname'] = 'STACK-Math-Game-Verhalten';
+$string['pluginnameadding'] = 'STACK-Math-Game-Verhalten';
 $string['pluginname_link'] = 'question/behaviour/stackmathgame';
+$string['privacy:metadata'] = 'Das Plugin STACK Math Game Behaviour speichert selbst keine personenbezogenen Daten.';
