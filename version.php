@@ -9,10 +9,10 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'qbehaviour_stackmathgame';
-$plugin->version   = 2026032600;
+$plugin->version   = 2026032612;
 $plugin->requires  = 2024100700; // Moodle 4.5.
 $plugin->maturity  = MATURITY_ALPHA;
-$plugin->release   = '0.3.0';
+$plugin->release   = '0.5.0';
 $plugin->dependencies = [
     'qtype_stack' => ANY_VERSION,
 ];
