@@ -8,11 +8,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->component   = 'qbehaviour_stackmathgame';
-$plugin->version     = 2026032700;   // Bump: 2026032612 → 2026032700
-$plugin->requires    = 2024100700;   // Moodle 4.5.
-$plugin->maturity    = MATURITY_ALPHA;
-$plugin->release     = '0.6.0';
+$plugin->component = 'qbehaviour_stackmathgame';
+$plugin->version   = 2026032612;
+$plugin->requires  = 2024100700; // Moodle 4.5.
+$plugin->maturity  = MATURITY_ALPHA;
+$plugin->release   = '0.5.0';
 $plugin->dependencies = [
     'qtype_stack' => ANY_VERSION,
 ];
